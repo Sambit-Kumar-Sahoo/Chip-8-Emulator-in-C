@@ -15,3 +15,6 @@ Open your terminal in the root directory of the project and compile the source c
 **Windows (MinGW/GCC):**
 ```powershell
 gcc main.c chip8.c -o chip8@emu -I./include -L./lib -lSDL3
+```
+## Acknowledgements
+* The CPU architecture and memory mapping were built strictly following Cowgod\'s Chip-8 Technical Reference : http://devernay.free.fr/hacks/chip8/C8TECH10.HTM by Thomas P. Greene.
