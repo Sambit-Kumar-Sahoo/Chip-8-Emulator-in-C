@@ -89,11 +89,11 @@ int main(int argc, char *argv[])
         {
             if (cpu->display[i] == 1)
             {
-                pixel_buffer[i] = 0xFFFFFFFF;
+                pixel_buffer[i] = 0xffffffff;
             }
             else
             {
-                pixel_buffer[i] = 0x000000FF;
+                pixel_buffer[i] = 0x000000ff;
             }
         }
         SDL_UpdateTexture(texture, NULL, pixel_buffer, 64 * sizeof(uint32_t));
